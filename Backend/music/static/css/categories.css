@@ -1,0 +1,78 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #b8e9f5;
+    padding: 20px;
+}
+
+.home a{
+    float: left;
+    display: block;
+    text-decoration:none;
+    color: #615f5f;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    background-color: rgb(104, 103, 103);
+    border-radius: 10px;
+    padding: 0.4em 1em;
+    color: #ffffff;
+}
+
+.home a:hover{
+    color:rgb(0, 217, 255);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.categories {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(22, 22, 22);
+}
+
+.categories h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.categories ul {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.categories li {
+    margin-bottom: 10px;
+}
+
+.categories a {
+    display: block;
+    height:60px;
+    font-size: 25px;
+    font-family: Arial;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000000;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.categories a:hover {
+    background-color: #00f078;
+    color: #fff;
+    border-color: #000000;
+}
+
